@@ -4,7 +4,7 @@
 <property name="name" value="AvalRDA.Forum-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="forum_data_solicitacao" type="InputText" id="2123713498">
+<field position="0" name="data" type="InputText" id="2123713498">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -22,11 +22,11 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value="=new java.util.Date()"/>
-<property name="inputBinding" value="data_solicitacao"/>
-<property name="outputBinding" value="data_solicitacao"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="data"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="forum_assunto" type="InputText" id="1773742294">
+<field position="1" name="assunto" type="InputText" id="1773742294">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -44,7 +44,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="assunto"/>
+<property name="inputBinding" value=""/>
 <property name="outputBinding" value="assunto"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
@@ -65,11 +65,11 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="categoria"/>
+<property name="inputBinding" value=""/>
 <property name="outputBinding" value="categoria"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="forum_mensagem" type="InputTextArea" id="1643345642">
+<field position="3" name="mensagem" type="InputTextArea" id="1643345642">
 <property name="fieldRequired" value="false"/>
 <property name="height" value="20"/>
 <property name="labelCSSClass" value=""/>
@@ -87,7 +87,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="mensagem"/>
+<property name="inputBinding" value=""/>
 <property name="outputBinding" value="mensagem"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>

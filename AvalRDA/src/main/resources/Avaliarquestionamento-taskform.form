@@ -4,7 +4,7 @@
 <property name="name" value="Avaliarquestionamento-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="solicitante_in" type="InputText" id="974147377">
+<field position="0" name="solicitante" type="InputText" id="974147377">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -26,7 +26,7 @@
 <property name="outputBinding" value="forum_out/solicitante"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="data_solicitacao_in" type="InputText" id="1403433565">
+<field position="1" name="data" type="InputText" id="1403433565">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -48,7 +48,7 @@
 <property name="outputBinding" value="forum_out/data_solicitacao"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="assunto_in" type="InputText" id="795839573">
+<field position="2" name="assunto" type="InputText" id="795839573">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -70,7 +70,7 @@
 <property name="outputBinding" value="forum_out/assunto"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="categoria_in" type="InputText" id="1629729621">
+<field position="3" name="categoria" type="InputText" id="1629729621">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -91,7 +91,7 @@
 <property name="outputBinding" value="forum_out/categoria"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="mensagem_in" type="InputTextArea" id="1883164678">
+<field position="4" name="mensagem" type="InputTextArea" id="1883164678">
 <property name="fieldRequired" value="false"/>
 <property name="height" value="20"/>
 <property name="labelCSSClass" value=""/>

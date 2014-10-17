@@ -1,5 +1,5 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="producao" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="AvalRDA">
+  <kbase name="producao" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="AvalRDA">
     <ksession name="sessao" type="stateless" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>

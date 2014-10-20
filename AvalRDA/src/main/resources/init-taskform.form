@@ -33,4 +33,12 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="2" name="126251390" type="InputText" id="126251390">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText2quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 </form>

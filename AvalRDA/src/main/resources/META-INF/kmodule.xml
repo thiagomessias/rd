@@ -1,27 +1,13 @@
-<kmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-
-         xmlns="http://jboss.org/kie/6.0.0/kmodule">
-
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <kbase name="defaultKieBase" default="true" eventProcessingMode="cloud" equalsBehavior="identity" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="*">
-
     <ksession name="defaultKieSession" type="stateful" default="true" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped">
-
-        <workItemHandlers>
-
-            <workItemHandler name="CustomTask" type="FQCN_OF_HANDLER" />
-
-        </workItemHandlers>
-
-        <listeners>
-
-            <listener type="FQCN_OF_EVENT_LISTENER" />
-
-        </listeners>
-
+      <workItemHandlers>
+        <workItemHandler type="FQCN_OF_HANDLER" name="CustomTask"/>
+      </workItemHandlers>
+      <listeners>
+        <workingMemoryEventListener type="FQCN_OF_EVENT_LISTENER"/>
+      </listeners>
     </ksession>
-
     <ksession name="defaultStatelessKieSession" type="stateless" default="true" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped"/>
-
   </kbase>
-
 </kmodule>

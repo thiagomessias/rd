@@ -1,6 +1,6 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="base2" default="false" eventProcessingMode="cloud" equalsBehavior="identity"/>
-  <kbase name="defaultKieBase" default="true" eventProcessingMode="cloud" equalsBehavior="identity" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="*">
+  <kbase name="base2" default="true" eventProcessingMode="cloud" equalsBehavior="identity"/>
+  <kbase name="defaultKieBase" default="false" eventProcessingMode="cloud" equalsBehavior="identity" declarativeAgenda="disabled" scope="javax.enterprise.context.ApplicationScoped" packages="*">
     <ksession name="defaultKieSession" type="stateful" default="true" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped"/>
     <ksession name="defaultStatelessKieSession" type="stateless" default="true" clockType="realtime" scope="javax.enterprise.context.ApplicationScoped"/>
   </kbase>

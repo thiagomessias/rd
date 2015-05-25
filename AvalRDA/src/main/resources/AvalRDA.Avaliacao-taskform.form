@@ -71,6 +71,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="input_prazo_avaliacao"/>
+<property name="outputBinding" value="prazo_avaliacao"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 </form>

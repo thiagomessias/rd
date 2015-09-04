@@ -23,6 +23,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="anexo"/>
+<property name="outputBinding" value="anexo_out"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 </form>

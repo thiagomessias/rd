@@ -22,6 +22,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="inputBinding" value="anexo"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 </form>
